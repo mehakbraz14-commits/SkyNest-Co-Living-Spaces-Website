@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SkyNest Co-Living Spaces | Home</title>
+<meta name="description" content="SkyNest Co-Living Spaces, a fictional co-living accommodation provider in Singapore.">
+<style>
+*{box-sizing:border-box}:root{--pine:#24483f;--sage:#dce7dc;--cream:#faf7ef;--clay:#bd7056;--ink:#293b35;--muted:#65736b;--line:#e3e6dc}
+body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.7 'Trebuchet MS',Arial,sans-serif}
+.container{width:min(1120px,90%);margin:auto}.skip-link{position:absolute;top:-100px;left:12px;padding:10px;background:white;color:var(--pine);z-index:9}.skip-link:focus{top:12px}
+header,footer{background:var(--pine);color:white;text-align:center;padding:22px 0}.site-name{font: bold 28px Georgia,serif;margin:0}.tagline{margin:3px 0 0;color:#e1e9df}
+nav{background:#e9eee5;border-bottom:1px solid #d7dfd4}.nav-links{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;list-style:none;margin:0;padding:10px 0}.nav-links a{display:block;padding:9px 15px;border-radius:24px;color:var(--pine);font-weight:bold;text-decoration:none}.nav-links a:hover,.nav-links a[aria-current=page]{background:var(--pine);color:white}
+a:focus-visible,button:focus-visible{outline:3px solid var(--clay);outline-offset:4px}
+h1,h2,h3{font-family:Georgia,'Times New Roman',serif;color:var(--pine);line-height:1.2}h1{font-size:clamp(36px,5vw,52px);margin:0 0 16px}h2{font-size:30px;margin:0 0 13px}h3{font-size:22px;margin:0 0 10px}
+.eyebrow{color:var(--clay);font-size:13px;font-weight:bold;letter-spacing:1.4px;text-transform:uppercase;margin:0 0 9px}
+.intro,.hero{background:var(--sage);padding:52px 0}.section{padding:52px 0}.white{background:white}
+.button{display:inline-block;padding:11px 22px;margin-top:12px;border-radius:25px;background:var(--clay);color:white;text-decoration:none;font-weight:bold}.button:hover{background:#9f5943}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid var(--line);border-radius:14px;padding:23px;box-shadow:0 7px 20px #293b3508}
+footer{padding:24px 0}footer p{margin:4px 0}.footer-note{font-size:13px;color:#dce7dc}
+@media(max-width:740px){.cards,.two-col,.hero-grid,.package-grid,.contact-layout{grid-template-columns:1fr!important}.section,.intro,.hero{padding:36px 0}}
+
+
+</style></head><body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header><div class="container"><p class="site-name">SkyNest Co-Living Spaces</p><p class="tagline">Space to live, work and connect in Singapore</p></div></header>
+<nav aria-label="Main navigation"><div class="container"><ul class="nav-links"><li><a href="index.html" aria-current=page>Home</a></li><li><a href="about.html" >About Us</a></li><li><a href="facilities.html" >Facilities</a></li><li><a href="guide.html" >Resident Guide</a></li><li><a href="contact.html" >Contact Us</a></li></ul></div></nav>
+<main id="main-content">
+<section class="hero"><div class="container hero-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center">
+<div><p class="eyebrow">Welcome to SkyNest Co-Living Spaces</p><h1>Find your space. Feel at home.</h1>
+<p>Moving to Singapore for work, study or a new opportunity? SkyNest Co-Living Spaces offers furnished co-living accommodation for young professionals, digital nomads and international students.</p>
+<p>Explore our accommodation packages and shared facilities to find an option that suits your needs.</p><a class="button" href="about.html">Discover SkyNest</a></div>
+<figure style="margin:0"><img src="images/building.jpg" alt="Illustrative exterior of a modern residential building" style="width:100%;height:350px;object-fit:cover;border-radius:48% 48% 14px 14px"><figcaption>Illustrative image. SkyNest Co-Living Spaces is a fictional provider.</figcaption></figure></div></section>
+<section class="section"><div class="container"><p class="eyebrow">Everyday living</p><h2>Designed around your everyday life</h2><p>From focused work and study time to shared meals and community activities, our facilities support a comfortable daily routine.</p>
+<div class="cards"><article class="card"><h3>Arrive and settle in</h3><p>Our furnished accommodation helps you get started. Utilities are included in the accommodation packages, with high-speed internet available to support your stay.</p></article>
+<article class="card"><h3>Make time to focus</h3><p>Use the shared co-working spaces and study pods to complete your work, attend to your studies or concentrate on individual tasks.</p></article>
+<article class="card"><h3>Connect with others</h3><p>Meet fellow residents in the social lounge, enjoy the communal areas and take part in weekly community events.</p></article></div></div></section>
+<section class="section white"><div class="container two-col" style="display:grid;grid-template-columns:.9fr 1.1fr;gap:38px;align-items:center"><figure style="margin:0"><img src="images/bedroom.jpg" alt="Illustrative furnished bedroom with a bed and study desk" loading="lazy" style="width:100%;height:410px;object-fit:cover;border-radius:16px"><figcaption>Illustrative room image. Ask about actual room arrangements.</figcaption></figure>
+<div><p class="eyebrow">Find your fit</p><h2>A stay that suits your plans</h2><p>Whether you prefer a private studio, a shared apartment or a shorter stay, explore the available accommodation packages.</p>
+<ul><li><strong>Premium Stay:</strong> A private studio apartment with weekly cleaning, utilities, high-speed internet and access to all facilities.</li>
+<li><strong>Standard Stay:</strong> A private bedroom in a shared apartment, with fortnightly cleaning and access to co-working spaces and shared kitchens.</li>
+<li><strong>Short-Term Stay:</strong> Flexible accommodation for 1–4 weeks, including a furnished room, utilities and limited access to shared facilities.</li>
+<li><strong>Custom Packages:</strong> Arrangements for corporate bookings, long-term stays and residents with accessibility needs.</li></ul>
+<p>If you have particular requirements, you can contact SkyNest to discuss a suitable package and the available arrangements.</p><a class="button" href="guide.html">Read the Resident Guide</a></div></div></section>
+<section class="section"><div class="container" style="background:var(--pine);color:white;padding:38px;border-radius:16px;text-align:center"><h2 style="color:white">Planning your next move?</h2><p>Tell us your preferred accommodation package, expected arrival and departure dates, and any specific room or accessibility requirements. We can then discuss suitable options and availability.</p><a class="button" href="contact.html">Make an Enquiry</a></div></section>
+</main>
+<footer><div class="container"><p><strong>SkyNest Co-Living Spaces</strong> | Singapore</p><p class="footer-note">Student practice website. Fictional accommodation provider.</p></div></footer>
+</body></html>
